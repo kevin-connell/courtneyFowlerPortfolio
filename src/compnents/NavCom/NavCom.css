@@ -1,0 +1,49 @@
+body > #root {
+    height: 100vh;
+}
+
+#navigation {
+    background-color: lightblue;
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 768px) { 
+    #root{
+        display: flex;
+    }
+}
+
+#desktopNav {
+    display: flex;
+    padding: 25px;
+    width: 20%;
+    height: 100%;
+    min-width: 280px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: scroll;
+}
+
+.category {
+    padding: 10px 0px 3px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.subcat {
+    padding-left: 30px;
+    cursor: pointer;
+    will-change: padding;
+    transition: .3s;
+}
+
+.subcat:hover {
+    padding-left: 35px;
+}
+
+#placeholderNav {
+    height: 100%;
+    min-width: 260px;
+}
