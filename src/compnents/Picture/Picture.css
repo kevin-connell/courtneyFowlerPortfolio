@@ -1,7 +1,32 @@
 .fullSize {
     width: 100%;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+@media (min-width: 576px) { 
+    .halfSize {
+        width: 49% !important;
+    }
 }
 
 .halfSize {
-    width: 50%;
+    width: 100%;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.halfSizeContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section {
+    height: 3px;
+}
+
+.subcatTitle {
+    margin-top: 15px;
 }

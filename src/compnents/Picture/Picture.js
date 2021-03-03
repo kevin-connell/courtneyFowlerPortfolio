@@ -5,8 +5,8 @@ const PictureDisplay = (props) => {
 
     return (
         <>
-        <img className={props.fullSize ? "fullSize" : "halfSize"} src={props.url} alt={props.caption} ></img>
-        <p>{props.caption}</p>
+        <img className={props.fullSize == "true" ? "fullSize" : "halfSize"} src={props.url} alt={props.caption} ></img>
+        {props.caption? <p>{props.caption}</p> : ""}
         </>
     );
 }

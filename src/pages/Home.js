@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-import NavCom from "../compnents/NavCom";
-import PictureDisplay from "../compnents/PictureDisplay";
+import Horticulture from "../compnents/Horticulture";
+import NavContainer from "../compnents/NavContainer";
+import Photography from "../compnents/Photography";
 
 function getWidth() {
     const { innerWidth: width} = window;
@@ -10,6 +11,19 @@ function getWidth() {
 function Home() {
 
     const [isMobile, setIsMobile] = useState(getWidth());
+    const [category, setCategory] = useState("horticulture");
+    const [subcat, setSubcat] = useState("summer");
+
+    const changeCategory = (newcat, newsubcat) => {
+        console.log(`category changed to ${newcat}\nsubcat changed to ${newsubcat} `)
+        setSubcat(newsubcat);
+        setCategory(newcat);
+    }
+
+    const changeSubcat = (newsubcat) => {
+        console.log(`subcat changed to ${newsubcat}`)
+        setSubcat(newsubcat);
+    }
 
     useEffect(() => {
         function handleResize() {
@@ -22,8 +36,11 @@ function Home() {
 
     return (
         <>
-            <NavCom isMobile={isMobile} />
-            <PictureDisplay isMobile={isMobile} />
+            <NavContainer category={category} subcat={subcat} changeCategory={changeCategory} isMobile={isMobile} />
+            <main className="contentContainer">
+                {category === "horticulture"? <Horticulture category={category} subcat={subcat} changeSubcat={changeSubcat}/>: ""}
+                {category === "photography"? <Photography category={category} subcat={subcat} changeSubcat={changeSubcat}/>: ""}
+            </main>
         </>
     );
 }

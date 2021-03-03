@@ -3,9 +3,13 @@ body > #root {
 }
 
 #navigation {
-    background-color: lightblue;
+    background-color: white;
     width: 100%;
+    max-height: 100%;
     height: auto;
+    position: fixed;
+    top: 0;
+    overflow: scroll;
 }
 
 @media (min-width: 768px) { 
@@ -37,6 +41,11 @@ body > #root {
     cursor: pointer;
     will-change: padding;
     transition: .3s;
+}
+
+.current{
+    color: rgb(218, 37, 173);
+    font-weight: bold;
 }
 
 .subcat:hover {
