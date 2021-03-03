@@ -12,19 +12,15 @@ const NavContainer = (props) => {
 
     const handleClick = (event) => {
 
-        console.log(props.isMobile)
-
         if(props.isMobile === true){
             toggle()
         }
 
+        props.changeCategory(event.target.getAttribute("data-cat"), event.target.getAttribute("data-tag"))
+
         if(props.category === event.target.getAttribute("data-cat")){
 
             document.getElementById(event.target.getAttribute("data-tag")).scrollIntoView({ behavior: 'smooth'})
-
-        } else {
-
-            props.changeCategory(event.target.getAttribute("data-cat"), event.target.getAttribute("data-tag"))
 
         }
 
