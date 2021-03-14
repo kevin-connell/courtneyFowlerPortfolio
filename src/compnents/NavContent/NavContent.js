@@ -1,11 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
+import icon1 from "../../images/icons/icon1.png"
+import icon2 from "../../images/icons/icon2.png"
+import icon3 from "../../images/icons/icon3.png"
+import icon4 from "../../images/icons/icon4.png"
 
+const iconArr = [icon1, icon2, icon3, icon4];
 
 const NavContent = (props) => {
+
+    const [arrNum, setArrNum] = useState(Math.floor(Math.random() * 4));
+
+    const changeIcon = () => {
+        if (arrNum > 2) {
+            setArrNum(0)
+        } else {
+            setArrNum(arrNum + 1)
+        }
+    }
 
     return (
         <div>
             {props.isMobile? '' : <h4>Courtney Fowler</h4>}
+
+            <div style={{width: "80px", height: "64px", margin: "15px 0px 5px 25px"}}>
+
+                <img src={iconArr[arrNum]} alt="floral icon" style={{width: "80px", height: "64px"}} onClick={changeIcon} />
+
+            </div>
 
             <h5 className={props.category === 'horticulture' ? "current category" : "category"} data-cat="horticulture" data-tag="summer" onClick={props.handleClick}>Horticulture</h5>
 
