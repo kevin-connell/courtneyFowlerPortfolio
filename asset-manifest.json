@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/courtneyFowlerPortfolio/static/css/main.1bedc391.chunk.css",
-    "main.js": "/courtneyFowlerPortfolio/static/js/main.d718b325.chunk.js",
-    "main.js.map": "/courtneyFowlerPortfolio/static/js/main.d718b325.chunk.js.map",
+    "main.css": "/courtneyFowlerPortfolio/static/css/main.a5ca6f70.chunk.css",
+    "main.js": "/courtneyFowlerPortfolio/static/js/main.635abc31.chunk.js",
+    "main.js.map": "/courtneyFowlerPortfolio/static/js/main.635abc31.chunk.js.map",
     "runtime-main.js": "/courtneyFowlerPortfolio/static/js/runtime-main.b4c30d30.js",
     "runtime-main.js.map": "/courtneyFowlerPortfolio/static/js/runtime-main.b4c30d30.js.map",
     "static/css/2.43b2b750.chunk.css": "/courtneyFowlerPortfolio/static/css/2.43b2b750.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.04edd3ab.chunk.js.map": "/courtneyFowlerPortfolio/static/js/2.04edd3ab.chunk.js.map",
     "index.html": "/courtneyFowlerPortfolio/index.html",
     "static/css/2.43b2b750.chunk.css.map": "/courtneyFowlerPortfolio/static/css/2.43b2b750.chunk.css.map",
-    "static/css/main.1bedc391.chunk.css.map": "/courtneyFowlerPortfolio/static/css/main.1bedc391.chunk.css.map",
+    "static/css/main.a5ca6f70.chunk.css.map": "/courtneyFowlerPortfolio/static/css/main.a5ca6f70.chunk.css.map",
     "static/js/2.04edd3ab.chunk.js.LICENSE.txt": "/courtneyFowlerPortfolio/static/js/2.04edd3ab.chunk.js.LICENSE.txt",
     "static/media/autumn-01.579158a5.jpg": "/courtneyFowlerPortfolio/static/media/autumn-01.579158a5.jpg",
     "static/media/autumn-02.50d0a10f.jpg": "/courtneyFowlerPortfolio/static/media/autumn-02.50d0a10f.jpg",
@@ -32,6 +32,10 @@
     "static/media/floral-6.7c75ccdf.jpg": "/courtneyFowlerPortfolio/static/media/floral-6.7c75ccdf.jpg",
     "static/media/floral-7.4daa7f1e.jpg": "/courtneyFowlerPortfolio/static/media/floral-7.4daa7f1e.jpg",
     "static/media/floral-8.19058da5.jpg": "/courtneyFowlerPortfolio/static/media/floral-8.19058da5.jpg",
+    "static/media/icon1.785c1c74.png": "/courtneyFowlerPortfolio/static/media/icon1.785c1c74.png",
+    "static/media/icon2.81818683.png": "/courtneyFowlerPortfolio/static/media/icon2.81818683.png",
+    "static/media/icon3.e3881ca8.png": "/courtneyFowlerPortfolio/static/media/icon3.e3881ca8.png",
+    "static/media/icon4.a5468944.png": "/courtneyFowlerPortfolio/static/media/icon4.a5468944.png",
     "static/media/smiles-01.1aa4e7d6.jpg": "/courtneyFowlerPortfolio/static/media/smiles-01.1aa4e7d6.jpg",
     "static/media/smiles-02.e1aa89e7.jpg": "/courtneyFowlerPortfolio/static/media/smiles-02.e1aa89e7.jpg",
     "static/media/smiles-03.37d08720.jpg": "/courtneyFowlerPortfolio/static/media/smiles-03.37d08720.jpg",
@@ -81,7 +85,7 @@
     "static/js/runtime-main.b4c30d30.js",
     "static/css/2.43b2b750.chunk.css",
     "static/js/2.04edd3ab.chunk.js",
-    "static/css/main.1bedc391.chunk.css",
-    "static/js/main.d718b325.chunk.js"
+    "static/css/main.a5ca6f70.chunk.css",
+    "static/js/main.635abc31.chunk.js"
   ]
 }
